@@ -43,7 +43,7 @@ class SegmentationController extends AbstractController
         dd($x);
         return new JsonResponse($x,Response::HTTP_OK);
     }
-
+    
     /**
      * @Route("/denemeSchema/{id}", name="denemeSchema")
      */
